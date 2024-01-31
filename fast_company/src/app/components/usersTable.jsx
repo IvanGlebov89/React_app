@@ -28,7 +28,7 @@ const UserTable = ({ users, onSort, selectedSort, ...rest }) => {
 UserTable.protoTypes = {
   users: PropTypes.array.isRequired,
   onSort: PropTypes.func.isRequired,
-  currentSort: PropTypes.object.isRequired,
+  selectedSort: PropTypes.object.isRequired,
 };
 
 export default UserTable;
